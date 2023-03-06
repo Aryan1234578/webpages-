@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Aryan webpage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      background: url("s.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: 'Balsamiq Sans', cursive;
+
+    }
+
+
+    .left {
+      position: absolute;
+      left: 20px;
+      top: 20px;
+      display: inline-block;
+
+
+    }
+
+    .left img {
+      width: 195px;
+      
+    }
+
+    .mid {
+      display: block;
+      width: 46%;
+      margin: 50px auto;
+    }
+
+
+    .right {
+      position: absolute;
+      right: 20px;
+      top: 50px;
+      display: inline-block;
+    }
+
+    .navbar {
+      display: inline-block;
+    }
+
+    .navbar li {
+      display: inline-block;
+     
+
+    }
+
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 34px 23px;
+      font-size: 15px;
+
+    }
+
+    .navbar li a:hover {
+      text-decoration: underline;
+      color: grey;
+    }
+
+    .btn {
+      font-family: 'Balsamiq Sans', cursive;
+      margin: 4px 7px;
+      background-color: #425759;
+      color: white;
+      padding: 4px 14px;
+      border: 2px solid grey;
+      border-radius: 15px;
+      font-size: 20px;
+      cursor: pointer;
+
+    }
+
+    .btn:hover {
+      background-color: rgb(31, 30, 30);
+    }
+
+    .container {
+      border: 5px solid black;
+      width: 56%;
+      margin: 356px 77px;
+      padding: 75px;
+    }
+
+    .form-group input {
+      font-family: 'Balsamiq Sans';
+      text-align: center;
+      display: block;
+      width: 508px;
+      padding: 1px;
+      border: 5px solid black;
+      margin: 11px auto;
+      font-size: 25px;
+      border-radius: 8px;
+
+    }
+
+    .container h1 {
+      text-align: center;
+      color: red;
+    }
+
+    .container button {
+      display: block;
+      width: 88%;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="left">
+      <img src="logo.jpg">
+    </div>
+
+    <div class="mid">
+      <ul class="navbar">
+        <li> <a href="#">Home</a> </li>
+        <li> <a href="#">Blogs</a> </li>
+        <li> <a href="#">About us</a> </li>
+        <li> <a href="#">contact us</a> </li>
+
+      </ul>
+
+    </div>
+
+    <div class="right">
+      <button class="btn"> Sign up</button>
+      <button class="btn"> Sign in</button>
+
+    </div>
+  </header>
+  <div class="container">
+    <h1>Subscribe our newsletter</h1>
+    <form action="noaction.php">
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Name">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Age">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Gender">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Email Id">
+      </div>
+      <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Phone Number">
+      </div>
+      <button class="btn">Submit</button>
+    </form>
+  </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
