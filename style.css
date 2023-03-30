@@ -1,0 +1,263 @@
+   /* css reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* navbar styling*/
+#navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+}
+
+
+#navbar::before {
+  content: "";
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  opacity: 0.5;
+
+}
+
+/* navigation : logo and image */
+#logo {
+  margin: 10px 34px;
+}
+
+#logo img {
+  height: 59px;
+  margin: 3px 6px;
+  border-radius: 15px;
+}
+
+#navbar ul {
+  display: flex;
+
+}
+
+#navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  font-family: 'Baloo Bhaijaan 2', cursive;
+  text-align: center;
+}
+
+#navbar ul li a:hover {
+  background-color: black;
+  color: white;
+
+
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    align-items: center;
+    justify-content: center;
+    height: 540px;
+  }
+
+  #home::before {
+    content: "";
+    background: url("home.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 642px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 1;
+  }
+
+  #home h1 {
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+  }
+
+  #home p {
+    color: #ff1f1f;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+  }
+
+
+  .btn {
+    padding: 6px 8px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  services 
+ #services {
+    margin: 34px;
+    display: flex;
+    position: relative;
+  }
+
+  #services .box {
+    border: 2px solid brown;
+    background-color: #f2f2f2;
+    margin: 22px 55px;
+    padding: 34px;
+    border-radius: 28px;
+    height: 450px;
+  }
+
+  #services-container h1 {
+    text-align: center;
+  }
+
+  #services .box img {
+    height: 100px;
+    display: block;
+    margin: auto;
+  }
+
+  #services .box p {
+    font-family: 'Bree Serif', serif;
+  }
+
+  #services h2 {
+    text-align: center;
+  }
+
+/* clients section*/
+ #client-section {
+    position: relative;
+    height: 540px;
+  }
+
+  #client-section::before {
+    content: "";
+    position: absolute;
+    background: url('bg.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+  }
+
+  #clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #clients img {
+    height: 124px;
+
+  }
+
+  .client-item {
+    padding: 34px;
+    margin-top: 130px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #client-section h1 {
+    text-align: center;
+  }
+
+  contact section*/
+
+#contact {
+    position: relative;
+
+
+  }
+
+  #contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 48%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('contact.jpg') no-repeat center center/cover;
+  }
+
+  #contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 300px;
+  }
+
+  #contact-box input,
+  #contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+  }
+
+  #contact-box form {
+    width: 40%;
+  }
+
+  #contact button {
+    display: block;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+    padding: 3px 17px;
+  }
+
+  #contact h1 {
+    text-align: center;
+  }
+
+  
+/* utility classes*/
+  .h-primary {
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+  } 
+
+  .h-secondary {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.3rem;
+    padding: 12px;
+  }
